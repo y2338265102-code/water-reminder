@@ -28,3 +28,5 @@ python stop.py
 - `stop.py`：停止提醒程序
 - `water_reminder.pid`：运行时自动生成，记录后台进程
 - `water_reminder.stop`：停止时临时生成
+# water-reminder
+喝水提醒小工具 - 每2小时桌面通知提醒喝水
