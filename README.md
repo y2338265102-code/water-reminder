@@ -1,32 +1,21 @@
-# Python 喝水提醒工具
+# 💧 喝水提醒工具
 
-## 启动
+一个简单实用的桌面喝水提醒小工具，每2小时弹出通知提醒你喝水。
 
-后台运行，不显示控制台窗口：
+## 功能特点
 
-```powershell
-pythonw water_reminder.py
-```
+- ⏰ 定时提醒：每2小时自动弹出桌面通知
+- 🎲 随机文案：每次提醒随机显示不同的温馨提示
+- 🖥️ 后台运行：静默运行，不影响工作
 
-调试运行，可以看到启动信息：
+## 使用方法
 
-```powershell
+```bash
 python water_reminder.py
 ```
 
-启动后脚本会常驻后台，每隔 2 小时弹出一次 Windows 原生通知区域提醒。
+## 技术栈
 
-## 停止
-
-```powershell
-python stop.py
-```
-
-## 文件
-
-- `water_reminder.py`：主提醒程序
-- `stop.py`：停止提醒程序
-- `water_reminder.pid`：运行时自动生成，记录后台进程
-- `water_reminder.stop`：停止时临时生成
-# water-reminder
-喝水提醒小工具 - 每2小时桌面通知提醒喝水
+- Python 3.x
+- Windows 原生通知 API
+- 借助 Claude Code 辅助开发
